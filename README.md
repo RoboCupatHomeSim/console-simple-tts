@@ -34,6 +34,12 @@ The 409 means English (United States).
 > ConsoleSimpleTTS "I have a pen" "Language=409;Gender=Female"
 ```
 
+## Memo
+If you want to include the DLL in the Unity editor, you also need to include CustomMarshalers.dll.  
+If don't import CustomMarshalers.dll, the executable file after build will be terminated abnormally.  
+https://forum.unity.com/threads/solved-speechlib-spvoiceclass-getvoices-does-crash-my-unity-executable.268011/  
+For example, CustomMarshalers.dll is located in:  
+*C:\Program Files\Unity\Hub\Editor\2018.4.0f1\Editor\Data\Mono\lib\mono\2.0*
 
 ## License
 
