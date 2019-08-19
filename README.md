@@ -1,5 +1,5 @@
 # Simple Text-to-Speech
-This is a submodule software for the Partner Robot Challenge (Virtual Space) in the World Robot Competition.
+This is a submodule software for the RoboCup@Home Simulation.
 
 The console application synthesize voice sounds of the given text using SAPI.  
 This project generates Interop.SpeechLib.dll for the application.
