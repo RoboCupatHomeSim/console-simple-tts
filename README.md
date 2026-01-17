@@ -9,7 +9,6 @@ This project generates **ConsoleSimpleTTS.exe** and **Interop.SpeechLib.dll**.
 
 - Windows 11
 - Visual Studio 2022
-- Microsoft Speech Platform
 
 ## How to Build
 
@@ -27,6 +26,7 @@ This project generates **ConsoleSimpleTTS.exe** and **Interop.SpeechLib.dll**.
     ```
 1. You can also set options to the second argument.  
     The 409 means English (United States).  
+    However, an English (en-US) text-to-speech voice must be installed in Windows.  
     ```
     > ConsoleSimpleTTS "I have a pen" "Language=409;Gender=Female"
     ```
